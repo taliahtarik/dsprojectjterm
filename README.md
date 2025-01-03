@@ -24,3 +24,7 @@ The dataset tracks **readmission rates** across healthcare facilities in differe
    - Data on the following conditions:  
      - **PN** (Pneumonia)  
      - **HF** (Heart Failure)  
+     - **MI** (Myocardial Infarction)  
+     - **COPD** (Chronic Obstructive Pulmonary Disease)  
+     - **HKR** (Hip/Knee Replacement)  
+     - **CABG** (Coronary Artery Bypass Grafting)  
