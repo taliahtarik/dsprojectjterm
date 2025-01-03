@@ -64,17 +64,25 @@ The dataset tracks **readmission rates** across healthcare facilities in differe
 
 --- 
 
-## Day 1:
-
 ## Hospital Readmissions Analysis
 
-Here is the analysis for the Hospital Readmissions Reduction Program:
+Our pre analysis correlation heatmap revealed a moderate correlation between predicted readmission rates and actual readmissions, serving as a foundational layer to answering the discrepancy between the two. 
 
-[Day 1 Hospital Readmissions Analysis](https://taliahtarik.github.io/dsprojectjterm/day1_hospital_readmissions.html)
+<iframe src="https://taliahtarik.github.io/dsprojectjterm/day1_hospital_readmissions.html" width="100%" height="600px"></iframe>
 
 ---
 
-## Day 2: 
+## Expected Readmission Ratio by State 
 
-[Day 2 EDA](https://taliahtarik.github.io/dsprojectjterm/day2_exploratory_.html)
+*intro here...*
+
 <iframe src="https://taliahtarik.github.io/dsprojectjterm/day2_exploratory_.html" width="100%" height="600px"></iframe>
+
+---
+
+### Linear Regression
+
+*Intro here...*
+
+<iframe src="https://taliahtarik.github.io/dsprojectjterm/day2_exploratory_.html" width="100%" height="600px"></iframe>
+
