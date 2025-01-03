@@ -73,3 +73,5 @@ Here is the analysis for the Hospital Readmissions Reduction Program:
 [Day 1 Hospital Readmissions Analysis](https://taliahtarik.github.io/dsprojectjterm/day1_hospital_readmissions.html)
 
 ---
+
+## Day 2: 
