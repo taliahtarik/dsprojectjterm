@@ -4,6 +4,16 @@
 
 ---
 
+## **Project Objective**  
+Our goal is to create visualizations that display hospital readmission rates across various regions of the United States (Northeast, Southeast, Southwest, Midwest, West). From these visualizations, we aim to answer the following key questions:  
+
+1. **What patterns can be identified in readmission rates across different regions in the U.S.?**  
+2. **Which diseases are most commonly contributing to hospital readmissions in different regions?**  
+3. **Are there any regional variations in readmission rates for specific diseases?**  
+4. **Can geographic factors explain variations in hospital readmission rates?**  
+
+---
+
 ## **Data Overview**  
 
 ### **Source**  
@@ -42,3 +52,16 @@ The dataset tracks **readmission rates** across healthcare facilities in differe
 - **Start and End Date**: The date range of the data collection period.  
 
 ---
+
+## **Research Question**
+
+*What patterns exist regarding hospital readmission rates within various regions in the United States, and what are the diseases most commonly contributing to these readmissions?*
+
+---
+
+## **Similar Research Projects**
+*Add research here...*
+
+--- 
+
+## 
