@@ -64,5 +64,12 @@ The dataset tracks **readmission rates** across healthcare facilities in differe
 
 --- 
 
-## 
-<script src="https://gist.github.com/zwt4pb/f0317ee8aa1e55337c9a82f959238da3.js"></script>
+## Day 1:
+
+## Hospital Readmissions Analysis
+
+Here is the analysis for the Hospital Readmissions Reduction Program:
+
+[Day 1 Hospital Readmissions Analysis](https://taliahtarik.github.io/dsprojectjterm/day1_hospital_readmissions.html)
+
+---
