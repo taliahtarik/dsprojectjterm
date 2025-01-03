@@ -65,11 +65,4 @@ The dataset tracks **readmission rates** across healthcare facilities in differe
 --- 
 
 ## 
-///python
-import pandas as pd
-from google.colab import files
-import seaborn as sns
-uploaded = files.upload()
-file = "FY_2024_Hospital_Readmissions_Reduction_Program_Hospital.csv"
-data = pd.read_csv(file)
-data.head()
+
