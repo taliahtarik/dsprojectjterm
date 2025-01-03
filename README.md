@@ -76,7 +76,7 @@ Our pre analysis correlation heatmap revealed a moderate correlation between pre
 
 *intro here...*
 
-<iframe src="https://taliahtarik.github.io/dsprojectjterm/day2_exploratory_.html" width="100%" height="600px"></iframe>
+<iframe src="https://taliahtarik.github.io/dsprojectjterm/ERRVis.html" width="100%" height="600px"></iframe>
 
 ---
 
