@@ -68,7 +68,7 @@ The dataset tracks **readmission rates** across healthcare facilities in differe
 
 Our pre analysis correlation heatmap revealed a moderate correlation between predicted readmission rates and actual readmissions, serving as a foundational layer to answering the discrepancy between the two. 
 
-<iframe src="https://taliahtarik.github.io/dsprojectjterm/day1_hospital_readmissions.html" width="100%" height="600px"></iframe>
+<iframe src="https://taliahtarik.github.io/dsprojectjterm/hospitalreadmissions.html" width="100%" height="600px"></iframe>
 
 ---
 
