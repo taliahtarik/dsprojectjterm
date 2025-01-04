@@ -60,7 +60,12 @@ The dataset tracks **readmission rates** across healthcare facilities in differe
 ---
 
 ## **Similar Research Projects**
-*Add research here...*
+
+Source: [Forecasting Hospital Readmissions with Machine Learning](https://pmc.ncbi.nlm.nih.gov/articles/PMC9222500/)
+
+Summary: This study focuses on using machine learning techniques to predict hospital readmissions based on real-world inpatient data. It highlights the importance of predicting readmissions as a key strategy for improving patient care and reducing hospital costs. 
+
+It uses similar variables like discharge data, patient demographics, and readmission rates to build predictive models. The findings show that machine learning models allow for better early intervention strategies to reduce unnecessary readmissions. 
 
 --- 
 
@@ -72,9 +77,9 @@ Our pre analysis correlation heatmap revealed a moderate correlation between pre
 
 ---
 
-## Expected Readmission Ratio by State 
+## Excess Readmission Ratio by State 
 
-*intro here...*
+This choropleth map provides an interactive overview of hospital readmission trends across the United States, showcasing state-level performance and identifying areas of high risk and effective care management through Excess Readmission Ratios (ERR) across six medical conditions.
 
 <iframe src="https://taliahtarik.github.io/dsprojectjterm/ERRVis.html" width="100%" height="600px"></iframe>
 
@@ -82,7 +87,7 @@ Our pre analysis correlation heatmap revealed a moderate correlation between pre
 
 ### Linear Regression
 
-*Intro here...*
+This analysis explores the connection between health equity and hospital readmission rates, which ties directly to our research question.
 
 <iframe src="https://taliahtarik.github.io/dsprojectjterm/HELinReg.html" width="100%" height="600px"></iframe>
 
