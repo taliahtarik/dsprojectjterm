@@ -81,7 +81,7 @@ Our pre analysis correlation heatmap revealed a moderate correlation between pre
 
 This choropleth map provides an interactive overview of hospital readmission trends across the United States, showcasing state-level performance and identifying areas of high risk and effective care management through Excess Readmission Ratios (ERR) across six medical conditions.
 
-<iframe src="https://taliahtarik.github.io/dsprojectjterm/diseasemap.html" width="100%" height="600px"></iframe>
+<iframe src="https://taliahtarik.github.io/dsprojectjterm/finalday2pt2.html" width="100%" height="600px"></iframe>
 
 <iframe src="https://taliahtarik.github.io/dsprojectjterm/ERRVis.html" width="100%" height="600px"></iframe>
 
