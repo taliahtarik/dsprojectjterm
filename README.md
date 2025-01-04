@@ -5,12 +5,27 @@
 ---
 
 ## **Project Objective**  
-Our goal is to create visualizations that display hospital readmission rates across various regions of the United States (Northeast, Southeast, Southwest, Midwest, West). From these visualizations, we aim to answer the following key questions:  
 
-1. **What patterns can be identified in readmission rates across different regions in the U.S.?**  
-2. **Which diseases are most commonly contributing to hospital readmissions in different regions?**  
-3. **Are there any regional variations in readmission rates for specific diseases?**  
-4. **Can geographic factors explain variations in hospital readmission rates?**  
+Our goal is to create visualizations that highlight patterns in hospital readmission rates across U.S. regions (Northeast, Southeast, Southwest, Midwest, West). Specifically, we aim to:  
+
+- Identify regional trends in hospital readmission rates.  
+- Determine which diseases most commonly contribute to these readmissions.  
+
+---
+
+# **Research Question**
+
+## *What patterns exist regarding hospital readmission rates within various regions in the United States, and what are the diseases most commonly contributing to these readmissions?*
+
+---
+
+## **Similar Research Projects**
+
+Source: [Forecasting Hospital Readmissions with Machine Learning](https://pmc.ncbi.nlm.nih.gov/articles/PMC9222500/)
+
+Summary: This study focuses on using machine learning techniques to predict hospital readmissions based on real-world inpatient data. It highlights the importance of predicting readmissions as a key strategy for improving patient care and reducing hospital costs. 
+
+It uses similar variables like discharge data, patient demographics, and readmission rates to build predictive models. The findings show that machine learning models allow for better early intervention strategies to reduce unnecessary readmissions. 
 
 ---
 
@@ -19,19 +34,7 @@ Our goal is to create visualizations that display hospital readmission rates acr
 ### **Source**  
 - [CMS Healthcare Provider Data](https://data.cms.gov/provider-data/dataset/9n3s-kdb3#data-table)  
 
-The dataset tracks **readmission rates** across healthcare facilities in different states, providing insights into healthcare equity and hospital-level performance.  
-
----
-
-## **Dataset Contains**  
-1. **Hospital-Level Information**  
-   - Metrics on readmission rates.  
-
-2. **Healthcare Equity Data**  
-   - Indicators of equity in care delivery.  
-
-3. **Condition-Specific Metrics**  
-   - Data on the following conditions:  
+The dataset tracks **readmission rates** across healthcare facilities in different states, providing insights into healthcare equity and hospital-level performance. It contains metrics on readmission rates, and data on on the following conditions:  
      - **PN** (Pneumonia)  
      - **HF** (Heart Failure)  
      - **MI** (Myocardial Infarction)  
@@ -49,27 +52,12 @@ The dataset tracks **readmission rates** across healthcare facilities in differe
 - **Expected Readmission Rate**: The national average readmission rate for comparison.  
 - **Excess Readmission Ratio**: The ratio comparing predicted (per hospital) to expected (national average) rates of readmission.  
 - **Number of Readmissions**: The actual observed number of patients readmitted.  
-- **Start and End Date**: The date range of the data collection period.  
-
----
-
-## **Research Question**
-
-*What patterns exist regarding hospital readmission rates within various regions in the United States, and what are the diseases most commonly contributing to these readmissions?*
-
----
-
-## **Similar Research Projects**
-
-Source: [Forecasting Hospital Readmissions with Machine Learning](https://pmc.ncbi.nlm.nih.gov/articles/PMC9222500/)
-
-Summary: This study focuses on using machine learning techniques to predict hospital readmissions based on real-world inpatient data. It highlights the importance of predicting readmissions as a key strategy for improving patient care and reducing hospital costs. 
-
-It uses similar variables like discharge data, patient demographics, and readmission rates to build predictive models. The findings show that machine learning models allow for better early intervention strategies to reduce unnecessary readmissions. 
+- **Start and End Date**: The date range of the data collection period.
 
 --- 
 
 ## Hospital Readmissions Analysis
+### How do the variables correlate? What is the most common readmission condition across all states?
 
 Our pre analysis correlation heatmap revealed a moderate correlation between predicted readmission rates and actual readmissions, serving as a foundational layer to answering the discrepancy between the two. 
 
@@ -78,6 +66,7 @@ Our pre analysis correlation heatmap revealed a moderate correlation between pre
 ---
 
 ## Excess Readmission Ratio by State 
+### How do hospital readmission rates vary, and what patterns can be identified in regional disparities?
 
 This choropleth map provides an interactive overview of hospital readmission trends across the United States, showcasing state-level performance and identifying areas of high risk and effective care management through Excess Readmission Ratios (ERR) across six medical conditions.
 
@@ -87,11 +76,34 @@ This choropleth map provides an interactive overview of hospital readmission tre
 
 ---
 
-### Linear Regression
-
+## Linear Regression
+### How does health equity influence hospital readmission rates, and to what extent can health equity scores predict disparities in readmission outcomes across different regions?
 This analysis explores the connection between health equity and hospital readmission rates, which ties directly to our research question.
 
 <iframe src="https://taliahtarik.github.io/dsprojectjterm/HELinReg.html" width="100%" height="600px"></iframe>
 
 ---
 
+## Limitations
+
+Particularly for the choropleth map, because the average excess readmission ratios were averaged for each state, it can oversimplify nuances the facilities in different regions have within that state. Factors like socio-economic status or insurance type are not included, limiting the scope of health equity and its analysis in relation to readmissions.  
+
+---
+
+## Key Takeaways
+
+1. **Heart Failure**  
+   - A leading cause of readmissions nationwide (except pneumonia in two states).
+
+2. **Variation in Readmission Rates**  
+   - CABG Surgery: Highest variability.  
+   - COPD: Lowest variability (indicates uniform management).  
+
+3. **Excess Readmission Ratios (ERRs)**  
+   - Variations highlight opportunities to replicate successful practices or target interventions.
+
+4. **Prediction vs. Reality**  
+   - Stacked bar charts show close alignment between hospital predictions and national benchmarks.  
+   - Northeast: Minor variations suggest potential areas for fine-tuning prediction models.
+
+---
