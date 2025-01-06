@@ -89,8 +89,12 @@ This analysis explores the connection between health equity and hospital readmis
 ---
 
 ## Limitations
-Reducing health equity scores into a binary category may have oversimplified the effects of equity on readmission.
-
+Reducing health equity scores into a binary category may have oversimplified the effects of equity on readmission. 
+Limited Variables: Data set lacks variables like patient demographics, socioeconomic statuses, or comorbidities that could enhance predictive accuracy
+Binary Simplification 
+Confounding Variables: Missing variables like hospital size that could confound the relationships observed in the analysis. 
+Model Performance: Both random forests and logistic regression showed poor performance which suggests insufficient explanatory power in the available variables. 
+Missing Data: Dropping rows with missing values reduces data representativeness and overall reliability. 
 ---
 
 ## Key Takeaways
