@@ -82,7 +82,7 @@ This analysis explores the connection between health equity and hospital readmis
 
 <iframe src="https://taliahtarik.github.io/dsprojectjterm/HELinReg.html" width="100%" height="600px"></iframe>
 
-<img src="https://github.com/taliahtarik/dsprojectjterm/raw/main/feature_importance.png" alt="Feature Importances" width="600">
+![Feature Importances](https://github.com/taliahtarik/dsprojectjterm/raw/main/feature_importances.png)
 
 ---
 
