@@ -84,7 +84,16 @@ This analysis explores the connection between health equity and hospital readmis
 
 ![Feature Importances](https://github.com/taliahtarik/dsprojectjterm/raw/main/feature_importances.png)
 
-[View Logistic Regression Interactive Graph]
+
+---
+
+## Equity Analysis
+[Open Equity Analysis Notebook](https://colab.research.google.com/github/taliahtarik/dsprojectjterm/blob/main/equityanalysis.ipynb#scrollTo=KkIqMUFJXqY5)
+
+---
+
+## Choropleth Map
+[Open Choropleth Map Notebook](https://colab.research.google.com/drive/1Riaxyv9mVv6BhS7uT19QxnXYuMQV1yxd#scrollTo=-emrOE365q9d)
 
 ---
 
