@@ -97,9 +97,9 @@ This analysis explores the connection between health equity and hospital readmis
 
 4. Confounding Variables: Missing variables like hospital size that could confound the relationships observed in the analysis. 
 
-5. Model Performance: Both random forests and logistic regression showed poor performance which suggests insufficient explanatory power in the available variables. 
+5. Model Performance: Both random forests and logistic regression showed poor performance which suggests insufficient explanatory power in the available variables.
 
-Missing Data: Dropping rows with missing values reduces data representativeness and overall reliability. 
+6. Missing Data: Dropping rows with missing values reduces data representativeness and overall reliability. 
 ---
 
 ## Key Takeaways
