@@ -84,7 +84,8 @@ This analysis explores the connection between health equity and hospital readmis
 
 ![Feature Importances](https://github.com/taliahtarik/dsprojectjterm/raw/main/feature_importances.png)
 
-[View Logistic Regression Interactive Graph](https://github.com/taliahtarik/dsprojectjterm/raw/main/logistic_regression.html)
+[View Logistic Regression Interactive Graph]
+<iframe src="logistic_regression.html" width="100%" height="500px" frameborder="0"></iframe>
 
 ---
 
