@@ -76,17 +76,17 @@ This choropleth map provides an interactive overview of hospital readmission tre
 
 ---
 
-## Linear Regression
+## Machine Learning Models 
 ### How does health equity influence hospital readmission rates, and to what extent can health equity scores predict disparities in readmission outcomes across different regions?
 This analysis explores the connection between health equity and hospital readmission rates, which ties directly to our research question.
 
 <iframe src="https://taliahtarik.github.io/dsprojectjterm/HELinReg.html" width="100%" height="600px"></iframe>
 
+
 ---
 
 ## Limitations
-
-Particularly for the choropleth map, because the average excess readmission ratios were averaged for each state, it can oversimplify nuances the facilities in different regions have within that state. Factors like socio-economic status or insurance type are not included, limiting the scope of health equity and its analysis in relation to readmissions.  
+Reducing health equity scores into a binary category may have oversimplified the effects of equity on readmission.
 
 ---
 
